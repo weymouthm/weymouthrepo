@@ -1,0 +1,51 @@
+{
+  "items": [
+    {
+      "@context": "https://schema.org",
+      "@type": "CreativeWork",
+      "id": "1",
+      "name": "Basketball",
+      "description": "Item for basketball playing"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "CreativeWork",
+      "id": "2",
+      "name": "Digital camera",
+      "description": "Item for capturing and storing digital images and videos"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "CreativeWork",
+      "id": "3",
+      "name": "Bass guitar",
+      "description": "Item for playing and composing music"
+    }
+  ],
+  "users": [
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "id": "1",
+      "name": "matt",
+      "description": "owner",
+      "itemId": "1"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "id": "2",
+      "name": "haley",
+      "description": "partner",
+      "itemId": "1"
+    }
+  ],
+  "collection": {
+    "@context": "https://schema.org/",
+    "@type": "Collection",
+    "name": "mattweymouth's API",
+    "creator": "weymouthm",
+    "about": "A collection of items serving creative functions",
+    "url": "https://www.weymouthm.info"
+  }
+}
